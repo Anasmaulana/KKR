@@ -115,7 +115,7 @@ def tokenz():
         print "[!] Token Mungkin Salah/Kadalwarsa"
         time.sleep(1.7)
         menu()
-        os.system('python2 kkr.py')
+        os.system("python2 kkr.py")
 ##### AMBIL LINK #####
 def ambil_link():
     os.system("clear")
