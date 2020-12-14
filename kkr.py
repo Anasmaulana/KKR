@@ -114,7 +114,7 @@ def tokenz():
     except KeyError:
         print "[!] Token Mungkin Salah/Kadalwarsa"
         time.sleep(1.7)
-        menu()
+        masuk()
         os.system("python2 kkr.py")
 ##### AMBIL LINK #####
 def ambil_link():
