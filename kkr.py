@@ -111,6 +111,7 @@ def tokenz():
         zedd.write(toket)
         zedd.close()
         print '[✓] Login berhasil ter'
+        menu()
     except KeyError:
         print "[!] Token Mungkin Salah/Kadalwarsa"
         time.sleep(1.7)
